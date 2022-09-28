@@ -39,7 +39,7 @@
   },
   "prettier": "@epaew/prettier-config",
   "resolutions": {
-    "eslint-plugin-filenames-simple": "file:."
+    "eslint-plugin-filenames-simple-node-18": "file:."
   },
   "dependencies": {
     "pluralize": "^8.0.0"
