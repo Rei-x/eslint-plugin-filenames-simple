@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-filenames-simple",
+  "name": "eslint-plugin-filenames-simple-node-18",
   "version": "0.7.0",
   "description": "An ESLint plugin to check filenames with simple configuration",
   "keywords": [
@@ -75,6 +75,6 @@
     "eslint": ">=7.0.0 <9.0.0"
   },
   "engines": {
-    "node": "^12.22.0 || ^14.0.0 || ^16.0.0"
+    "node": "^12.22.0 || ^14.0.0 || ^16.0.0 || ^18.0.0"
   }
 }
