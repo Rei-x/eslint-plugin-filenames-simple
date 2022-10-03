@@ -37,7 +37,6 @@
     "test:coverage": "jest --coverage",
     "typecheck": "tsc --noEmit"
   },
-  "prettier": "@epaew/prettier-config",
   "resolutions": {
     "eslint-plugin-filenames-simple-node-18": "file:."
   },

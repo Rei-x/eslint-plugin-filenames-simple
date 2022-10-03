@@ -1,13 +1,13 @@
 import { Linter } from 'eslint';
 
 export const all: Linter.BaseConfig = {
-  plugins: ['filenames-simple'],
+  plugins: ['filenames-simple-node-18'],
   rules: {
-    'filenames-simple/extension': 'error',
-    'filenames-simple/named-export': 'error',
-    'filenames-simple/naming-convention': 'error',
-    'filenames-simple/no-index': 'error',
-    'filenames-simple/pluralize': ['error', { parentDir: 'plural', file: 'singular' }],
-    'filenames-simple/typescript-module-declaration': 'error',
+    'filenames-simple-node-18/extension': 'error',
+    'filenames-simple-node-18/named-export': 'error',
+    'filenames-simple-node-18/naming-convention': 'error',
+    'filenames-simple-node-18/no-index': 'error',
+    'filenames-simple-node-18/pluralize': ['error', { parentDir: 'plural', file: 'singular' }],
+    'filenames-simple-node-18/typescript-module-declaration': 'error',
   },
 };
