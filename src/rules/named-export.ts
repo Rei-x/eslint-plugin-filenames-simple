@@ -98,7 +98,7 @@ export const namedExport: Rule.RuleModule = {
           node: exportedIdentifier,
           messageId: 'invalidFilename',
           data: {
-            filename: presetRules['kebab-case'].recommendationBuilder(exportedIdentifier.name),
+            filename: presetRules['PascalCase'].recommendationBuilder(exportedIdentifier.name),
             extname,
           },
         });
