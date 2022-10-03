@@ -3,8 +3,7 @@ root: true
 env:
   es2017: true
 extends:
-  - '@epaew/eslint-config/node-typescript'
-  - plugin:filenames-simple/recommended
+  - plugin:filenames-simple-node-18/recommended
   - prettier
 parserOptions:
   ecmaVersion: 2018
@@ -13,6 +12,6 @@ overrides:
       - '__tests__/**'
     plugins:
       - '@typescript-eslint'
-      - filenames-simple
+      - filenames-simple-node-18
     rules:
       '@typescript-eslint/explicit-module-boundary-types': off
